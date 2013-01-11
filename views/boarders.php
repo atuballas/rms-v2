@@ -38,21 +38,21 @@
 <div class="cb"></div>
 <div class="table-data-operations">
 	<div class="table-data-operations-button">
-		<div class="table-data-operations-button-level1"><img src="<?php echo $config['url'];?>/images/add.png"></div>
+		<div class="table-data-operations-button-level1"><img src="<?php echo $config['url'];?>/add.png"></div>
 		<div class="table-data-operations-button-level2">
 			<a class="lightbox" lightbox="addboarder-lightbox-content" lightbox-width="450">Add Boarder</a>
 		</div>
 		<div class="cb"></div>
 	</div>
 	<div class="table-data-operations-button">
-		<div class="table-data-operations-button-level1"><img src="<?php echo $config['url'];?>/images/edit.png"></div>
+		<div class="table-data-operations-button-level1"><img src="<?php echo $config['url'];?>/edit.png"></div>
 		<div class="table-data-operations-button-level2">
 			<a class="lightbox" lightbox="editboarder-lightbox-content" lightbox-width="500">Edit Boarder</a>
 		</div>
 		<div class="cb"></div>
 	</div>
 	<div class="table-data-operations-button">
-		<div class="table-data-operations-button-level1"><img src="<?php echo $config['url'];?>/images/delete.png"></div>
+		<div class="table-data-operations-button-level1"><img src="<?php echo $config['url'];?>/delete.png"></div>
 		<div class="table-data-operations-button-level2">
 			<a class="lightbox" lightbox="deleteboarder-lightbox-content" lightbox-width="500">Delete Boarder</a>
 		</div>
@@ -66,7 +66,7 @@
 			<div class="lightbox-content-title">
 				<div class="lightbox-content-title-level1">Add Boarder</div>
 				<div class="lightbox-content-title-level2">
-					<img src="<?php echo $config['url'];?>/images/close.png" onclick="hideLightbox();">
+					<img src="<?php echo $config['url'];?>/close.png" onclick="hideLightbox();">
 				</div>
 				<div class="cb"></div>
 			</div>
@@ -177,7 +177,7 @@
 			<div class="lightbox-content-title">
 				<div class="lightbox-content-title-level1">Edit Boarder</div>
 				<div class="lightbox-content-title-level2">
-					<img src="<?php echo $config['url'];?>/images/close.png" onclick="hideLightbox();">
+					<img src="<?php echo $config['url'];?>/close.png" onclick="hideLightbox();">
 				</div>
 				<div class="cb"></div>
 			</div>
@@ -193,7 +193,7 @@
 			<div class="lightbox-content-title">
 				<div class="lightbox-content-title-level1">Delete Boarder</div>
 				<div class="lightbox-content-title-level2">
-					<img src="<?php echo $config['url'];?>/images/close.png" onclick="hideLightbox();">
+					<img src="<?php echo $config['url'];?>/close.png" onclick="hideLightbox();">
 				</div>
 				<div class="cb"></div>
 			</div>

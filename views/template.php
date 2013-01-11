@@ -2,7 +2,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Untitled Document</title>
+<title><?php echo $config['defmetatitle'];?></title>
+<meta name="description" content="<?php echo $config['defmetadesc'];?>"/>
+<meta name="keywords" content="<?php echo $config['defmetakeywords'];?>"/>
 <link type="text/css" rel="stylesheet" href="<?php echo $config['csspath'];?>/reset.css">
 <link type="text/css" rel="stylesheet" href="<?php echo $config['csspath'];?>/style.css">
 </head>
@@ -19,14 +21,14 @@
 	<div class="cb"></div>
 	<div id="navigation">
 		<ul>
-			<li <?php global $page; if( 'dashboard.php' == $page ){ ?>class="active"<?php } ?>><a href="/dashboard/">Dashboard</a></li>
-			<li <?php if( 'boarders.php' == $page ){ ?>class="active"<?php } ?>><a href="/boarders/">Boarders</a></li>
-			<li <?php if( 'rooms.php' == $page ){ ?>class="active"<?php } ?>><a href="/rooms/">Rooms</a></li>
-			<li <?php if( 'amenities.php' == $page ){ ?>class="active"<?php } ?>><a href="/amenities/">Amenities</a></li>
-			<li <?php if( 'appliances.php' == $page ){ ?>class="active"<?php } ?>><a href="/appliances/">Appliances</a></li>
-			<li <?php if( 'administrators.php' == $page ){ ?>class="active"<?php } ?>><a href="/administrators/">Administrators</a></li>
-			<li <?php if( 'settings.php' == $page ){ ?>class="active"<?php } ?>><a href="/settings/">Settings</a></li>
-			<li <?php if( 'rental.php' == $page ){ ?>class="active"<?php } ?>><a href="/rental/">Rental Management</a></li>
+			<li<?php global $page; if( 'dashboard.php' == $page ){ ?> class="active"<?php } ?>><a href="/dashboard/">Dashboard</a></li>
+			<li<?php if( 'boarders.php' == $page ){ ?> class="active"<?php } ?>><a href="/boarders/">Boarders</a></li>
+			<li<?php if( 'rooms.php' == $page ){ ?> class="active"<?php } ?>><a href="/rooms/">Rooms</a></li>
+			<li<?php if( 'amenities.php' == $page ){ ?> class="active"<?php } ?>><a href="/amenities/">Amenities</a></li>
+			<li<?php if( 'appliances.php' == $page ){ ?> class="active"<?php } ?>><a href="/appliances/">Appliances</a></li>
+			<li<?php if( 'administrators.php' == $page ){ ?> class="active"<?php } ?>><a href="/administrators/">Administrators</a></li>
+			<li<?php if( 'settings.php' == $page ){ ?> class="active"<?php } ?>><a href="/settings/">Settings</a></li>
+			<li<?php if( 'rental.php' == $page ){ ?> class="active"<?php } ?>><a href="/rental/">Rental Management</a></li>
 		</ul>
 	</div>
 	<div id="navigation-line"></div>

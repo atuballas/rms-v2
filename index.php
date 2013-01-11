@@ -5,6 +5,8 @@ include( 'includes/function.inc.php' );
 
 $page = $config['defpage'];
 $page_params = array();
+$data = array();
 reRouter();
+loadLogic();
 renderPage();
 ?>

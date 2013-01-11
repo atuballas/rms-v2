@@ -3,6 +3,11 @@ $config['host'] = 'http://localhost/';
 $config['folder'] = '';
 $config['url'] = $config['host'] . $config['folder'];
 
+$config['defmetatitle'] = 'RMS v2 - A new breed of Rental Management System';
+$config['defmetadesc'] = 'A new breed of Rental Management System';
+$config['defmetakeywords'] = 'rental, job, house, software';
+
+$config['logicpath'] = 'controllers';
 $config['viewspath'] = 'views';
 $config['tfullpath'] = 'views/template.php'; 
 $config['epath'] = 'errors';
