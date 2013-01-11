@@ -1,0 +1,112 @@
+/*D04547 10527A 2E8DC7 949213 7A7916 */
+/*54B8FF 104E7A 2E8DC7 7A4A04 C7892E */
+body{ font-family:Arial, Tahoma;font-size:12px; }
+div#container{ width:1024px;min-width:800px;margin:auto; }
+
+div#user-info{ background-color:#C7892E;height:30px;width:200px;float:right;margin:10px 0 0 0;color:#fff;line-height:2.5;text-align:center; }
+div#user-info div.user-info-levels{ float:left;padding:0 3px; }
+div#user-info-1{ width:138px; }
+div#user-info-2{ width:50px;background-color:#D04645; }
+
+div#navigation{ background-color:#2E8DC7;height:40px;margin:10px 0 0 0;color:#fff;font-weight:bold; }
+div#navigation ul{ padding:0 }
+div#navigation ul li{ float:left;padding:14px 20px; }
+div#navigation ul li.active{ background-color:#10527A; }
+div#navigation ul li a{ color:#fff;text-decoration:none; }
+div#navigation ul li a:hover{ cursor:pointer; }
+div#navigation-line{ height:2px;background-color:#10527A }
+
+div#content{ /* border-radius:3px;border:1px solid #ccc; */margin:10px 0 0 0;padding:2px; }
+div.table-data{ padding:2px; }
+div.table-data div.table-data-head{ background-color:#efefef;height:30px;border:1px solid #ccc; }
+div.table-data div.table-data-head ul{ padding:0 }
+div.table-data div.table-data-head ul li{ float:left;width:125px;text-align:center;padding:9px 0;text-decoration:underline;color:#10527A;border-right:1px solid #ccc; }
+div.table-data div.table-data-head ul li.last-col{ border-right:0px; }
+
+div.table-data div.table-data-body{ clear:both;border:1px solid #ccc;border-top:0px; }
+div.table-data div.table-data-body ul li{ float:left;width:125px;font-size:11px;text-align:center;padding:12px 0;border-bottom:1px solid #ccc;border-right:1px solid #ccc; }
+div.table-data div.table-data-body ul li.last-row{ border-bottom:0px; }
+div.table-data div.table-data-body ul li.last-col{ border-right:0px;width:132px; }
+div.table-data-operations{ margin:5px 0 0 2px; }
+div.table-data-operations-button{ background-color:#FA6421;width:120px;height:23px;border-radius:2px;float:left;margin:0 5px 0 0; }
+div.table-data-operations-button div{ float:left; }
+div.table-data-operations-button div.table-data-operations-button-level1{ background-color:#efefef;height:23px; }
+div.table-data-operations-button div.table-data-operations-button-level2{ line-height:1.5;padding:2px 0 0 4px;color:#fff }
+div.table-data-operations-button div.table-data-operations-button-level2 a:hover{ cursor:pointer; }
+
+div.lightbox-content{ display:none;font-family:Arial,Tahoma;font-size:12px;background-color:#efefef;border:1px solid #efefef;margin:0 auto;text-align:center;padding:5px;border-radius:5px; }
+div.lightbox-content-wrapper{ background-color:#fff; }
+div.lightbox-content-title{ text-align:left;font-weight:bold;padding:5px;color:#10527A; }
+div.lightbox-content-title-level1{ float:left; }
+div.lightbox-content-title-level2{ float:right; }
+div.lightbox-content-title-level2 img{ position:absolute;margin:-5px 0 0 -15px;background-color:#efefef;cursor:pointer; }
+
+div.lighbox-content-body-wrapper{ margin:10px 0 0 0;padding:5px; }
+div.lighbox-content-body-wrapper form ul li.form-submit-area{ text-align:center;width:450px;padding:20px 0 10px 0; }
+div.lighbox-content-body-wrapper form ul li.form-generic-error-container{ text-align:center;width:450px;font-size:11px;color:red; }
+div.lighbox-content-body-wrapper form ul li ul li{ float:left;padding:7px 0; }
+div.lighbox-content-body-wrapper form ul li ul li.form-li-label{ width:150px;text-align:left;line-height:2.3;padding-left:10px; }
+div.lighbox-content-body-wrapper form ul li ul li.form-li-field input,select{ width:250px;padding:4px 3px;border:1px solid #ddd;border-radius:3px; }
+div.lighbox-content-body-wrapper form ul li ul li.form-li-field input.inputerror, select.inputerror{ border:1px solid red }
+div.lighbox-content-body-wrapper form ul li ul li.form-li-field select{ width:258px; }
+div.lighbox-content-body-wrapper form ul li ul li.form-li-field input:focus, select:focus{ outline:none;-moz-box-shadow: 0px 0px 2px #10527A;-webkit-box-shadow: 0px 0px 2px #10527A;box-shadow: 0px 0px 2px #10527A; }
+
+.cb{ clear:both; }
+.form-note-required{ color:red; }
+.form-li-field-input-text-warning{ position:absolute;margin:-23px 0 0 256px; }
+
+.form-buttons-go{
+	cursor:pointer;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #10517a), color-stop(1, #10517a) );
+	background:-moz-linear-gradient( center top, #10517a 5%, #10517a 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#10517a', endColorstr='#10517a');
+	background-color:#10517a;
+	-moz-border-radius:1px;
+	-webkit-border-radius:1px;
+	border-radius:1px;
+	border:1px solid #10517a;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:12px;
+	font-weight:normal;
+	padding:6px 13px;
+	text-decoration:none;
+	text-shadow:1px 0px 0px #10517a;
+}.classname:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #10517a), color-stop(1, #10517a) );
+	background:-moz-linear-gradient( center top, #10517a 5%, #10517a 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#10517a', endColorstr='#10517a');
+	background-color:#10517a;
+}.classname:active {
+	position:relative;
+	top:1px;
+}
+
+.form-buttons-no{
+	cursor:pointer;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #cccccc), color-stop(1, #cccccc) );
+	background:-moz-linear-gradient( center top, #cccccc 5%, #cccccc 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#cccccc', endColorstr='#cccccc');
+	background-color:#cccccc;
+	-moz-border-radius:1px;
+	-webkit-border-radius:1px;
+	border-radius:1px;
+	border:1px solid #cccccc;
+	display:inline-block;
+	color:#666666;
+	font-family:arial;
+	font-size:12px;
+	font-weight:normal;
+	padding:6px 25px;
+	text-decoration:none;
+	text-shadow:1px 0px 0px #cccccc;
+}.classname:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #cccccc), color-stop(1, #cccccc) );
+	background:-moz-linear-gradient( center top, #cccccc 5%, #cccccc 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#cccccc', endColorstr='#cccccc');
+	background-color:#cccccc;
+}.classname:active {
+	position:relative;
+	top:1px;
+}
