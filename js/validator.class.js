@@ -9,7 +9,7 @@ https://github.com/atuballas/codes
 Class Constructor
 @Param: none
 */
-function Validator(  ){
+function Validator(){
 
 	this.field = '';
 	this.value = '';

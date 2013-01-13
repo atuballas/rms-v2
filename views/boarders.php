@@ -40,21 +40,21 @@
 	<div class="table-data-operations-button">
 		<div class="table-data-operations-button-level1"><img src="<?php echo $config['url'];?>/add.png"></div>
 		<div class="table-data-operations-button-level2">
-			<a class="lightbox" lightbox="addboarder-lightbox-content" lightbox-width="450">Add Boarder</a>
+			<a class="lightbox" lightbox="addboarder-lightbox-content" lightbox-width="450" onclick="cleanForm();">Add Boarder</a>
 		</div>
 		<div class="cb"></div>
 	</div>
-	<div class="table-data-operations-button">
+	<div class="table-data-operations-button table-data-operations-button-disabled retdefault">
 		<div class="table-data-operations-button-level1"><img src="<?php echo $config['url'];?>/edit.png"></div>
-		<div class="table-data-operations-button-level2">
-			<a class="lightbox" lightbox="editboarder-lightbox-content" lightbox-width="500">Edit Boarder</a>
+		<div class="table-data-operations-button-level2 table-data-operations-button-level2-disabled retdefault">
+			<a lightbox="editboarder-lightbox-content">Edit Boarder</a>
 		</div>
 		<div class="cb"></div>
 	</div>
-	<div class="table-data-operations-button">
+	<div class="table-data-operations-button table-data-operations-button-disabled retdefault">
 		<div class="table-data-operations-button-level1"><img src="<?php echo $config['url'];?>/delete.png"></div>
-		<div class="table-data-operations-button-level2">
-			<a class="lightbox" lightbox="deleteboarder-lightbox-content" lightbox-width="500">Delete Boarder</a>
+		<div class="table-data-operations-button-level2 table-data-operations-button-level2-disabled retdefault">
+			<a lightbox="deleteboarder-lightbox-content">Delete Boarder</a>
 		</div>
 		<div class="cb"></div>
 	</div>
@@ -83,7 +83,7 @@
 								<ul>
 									<li class="form-li-label">Name</li>
 									<li class="form-li-field">
-										<input type="text" name="name" id="name" class="form-li-field-input-text">
+										<input type="text" name="name" id="name" class="form-li-field-input-text" placeholder="John Doe">
 										<div id="form-li-field-input-text-name" class="form-li-field-input-text-warning"></div>
 									</li>
 								</ul>
@@ -92,7 +92,7 @@
 								<ul>
 									<li class="form-li-label">Address</li>
 									<li class="form-li-field">
-										<input type="text" name="address" id="address" class="form-li-field-input-text">
+										<input type="text" name="address" id="address" class="form-li-field-input-text" placeholder="Sanciangko St. Cebu City">
 										<div id="form-li-field-input-text-address" class="form-li-field-input-text-warning"></div>
 									</li>
 								</ul>
@@ -114,7 +114,7 @@
 								<ul>
 									<li class="form-li-label">Profession</li>
 									<li class="form-li-field">
-										<input type="text" name="profession" id="profession" class="form-li-field-input-text">
+										<input type="text" name="profession" id="profession" class="form-li-field-input-text" placeholder="Private Employee">
 										<div id="form-li-field-input-text-profession" class="form-li-field-input-text-warning"></div>
 									</li>
 								</ul>
@@ -123,7 +123,7 @@
 								<ul>
 									<li class="form-li-label">Phone</li>
 									<li class="form-li-field">
-										<input type="text" name="phone" id="phone" class="form-li-field-input-text">
+										<input type="text" name="phone" id="phone" class="form-li-field-input-text" placeholder="032-2592664">
 										<div id="form-li-field-input-text-phone" class="form-li-field-input-text-warning"></div>
 									</li>
 								</ul>
@@ -132,7 +132,7 @@
 								<ul>
 									<li class="form-li-label">Mobile</li>
 									<li class="form-li-field">
-										<input type="text" name="mobile" id="mobile" class="form-li-field-input-text">
+										<input type="text" name="mobile" id="mobile" class="form-li-field-input-text" placeholder="+63 9228252242">
 										<div id="form-li-field-input-text-mobile" class="form-li-field-input-text-warning"></div>
 									</li>
 								</ul>
@@ -141,7 +141,7 @@
 								<ul>
 									<li class="form-li-label">Age</li>
 									<li class="form-li-field">
-										<input type="text" name="age" id="age" class="form-li-field-input-text">
+										<input type="text" name="age" id="age" class="form-li-field-input-text" placeholder="18">
 										<div id="form-li-field-input-text-age" class="form-li-field-input-text-warning"></div>
 									</li>
 								</ul>
@@ -150,7 +150,7 @@
 								<ul>
 									<li class="form-li-label">Birthdate</li>
 									<li class="form-li-field">
-										<input type="text" name="birthdate" id="birthdate" class="form-li-field-input-text">
+										<input type="text" name="birthdate" id="birthdate" class="form-li-field-input-text" placeholder="11-05-1984 (mm-dd-yyyy)">
 										<div id="form-li-field-input-text-birthdate" class="form-li-field-input-text-warning"></div>
 									</li>
 								</ul>

@@ -52,8 +52,8 @@ $(document).ready(function(){
 	initLightbox();
 	
 	$('.lightbox').each(function(){
-		var hl = $('div.lightbox-content').height();
 		$(this).bind('click',function(){
+			var hl = $('div#'+$(this).attr('lightbox')+' div.lightbox-content').height();
 			var lcontent = $('#'+$(this).attr('lightbox')).html();
 			insertLightboxContents(lcontent);
 			$('div.lightbox-content').css('width',$(this).attr('lightbox-width'));
@@ -66,9 +66,10 @@ $(document).ready(function(){
 
 function runLightbox(a,b){
 	var lcontent = $('#'+a).html();
+	var hl = $('div#'+a+' div.lightbox-content').height();
 	insertLightboxContents(lcontent);
 	$('div.lightbox-content').css('width',b);
-	adjustLightboxVertically();
+	adjustLightboxVertically(hl);
 	showLightbox();
 }
 

@@ -26,12 +26,15 @@ div.table-data div.table-data-head ul li.last-col{ border-right:0px; }
 div.table-data div.table-data-body{ clear:both;border:1px solid #ccc;border-top:0px; }
 div.table-data div.table-data-body ul li{ float:left;width:125px;font-size:11px;text-align:center;padding:12px 0;border-bottom:1px solid #ccc;border-right:1px solid #ccc; }
 div.table-data div.table-data-body ul li.last-row{ border-bottom:0px; }
+div.table-data div.table-data-body ul li.sel-row{ background-color:#eee; }
 div.table-data div.table-data-body ul li.last-col{ border-right:0px;width:132px; }
 div.table-data-operations{ margin:5px 0 0 2px; }
 div.table-data-operations-button{ background-color:#FA6421;width:120px;height:23px;border-radius:2px;float:left;margin:0 5px 0 0; }
+div.table-data-operations-button-disabled{ background-color:#efefef;width:120px;height:23px;border-radius:2px;float:left;margin:0 5px 0 0; }
 div.table-data-operations-button div{ float:left; }
 div.table-data-operations-button div.table-data-operations-button-level1{ background-color:#efefef;height:23px; }
 div.table-data-operations-button div.table-data-operations-button-level2{ line-height:1.5;padding:2px 0 0 4px;color:#fff }
+div.table-data-operations-button div.table-data-operations-button-level2-disabled{ line-height:1.5;padding:2px 0 0 4px;color:#ccc }
 div.table-data-operations-button div.table-data-operations-button-level2 a:hover{ cursor:pointer; }
 
 div.lightbox-content{ display:none;font-family:Arial,Tahoma;font-size:12px;background-color:#efefef;border:1px solid #efefef;margin:0 auto;text-align:center;padding:5px;border-radius:5px; }

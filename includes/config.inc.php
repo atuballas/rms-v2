@@ -20,4 +20,7 @@ $config['uplpath'] = $config['url'] = $config['host'] . $config['folder'] . 'ima
 
 $config['defpage'] = 'dashboard.php';
 $config['defext'] = '.php';
+
+$config['jscssminified'] = true;
+$config['jscssversion'] = 1.7;
 ?>
